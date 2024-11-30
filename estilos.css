@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f9f9; /* Fondo claro */
-    color: #333; /* Texto oscuro */
+    background-color: #eef2ff; /* Fondo azul claro */
+    color: #222; /* Texto más oscuro para mejor contraste */
 }
 
 header {
-    background-color: #1d3556; /* Azul  */
+    background-color: #6c63ff; /* Morado vibrante */
     color: white;
     text-align: center;
     padding: 1em;
@@ -28,29 +28,30 @@ main {
 }
 
 form {
-    background-color: #e8f6f3; /* Fondo suave */
+    background-color: #d6e4ff; /* Azul pastel suave */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
     display: block;
     margin: 10px 0 5px;
     font-weight: bold;
+    color: #4f46e5; /* Azul fuerte */
 }
 
 input, button, select {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #a8dadc; /* Verde claro */
+    border: 1px solid #8b5cf6; /* Morado suave */
     border-radius: 5px;
     box-sizing: border-box;
 }
 
 button {
-    background-color: #457b9d; /* Azul llamativo */
+    background-color: #4f46e5; /* Azul fuerte */
     color: white;
     font-size: 1em;
     border: none;
@@ -59,11 +60,11 @@ button {
 }
 
 button:hover {
-    background-color: #1d3557; /* Azul oscuro */
+    background-color: #312e81; /* Azul oscuro */
 }
 
 footer {
-    background-color: #1d3557; /* Azul oscuro */
+    background-color: #4f46e5; /* Azul fuerte */
     color: white;
     text-align: center;
     padding: 10px;
@@ -73,7 +74,7 @@ footer {
 }
 
 footer a {
-    color: #f1faee; /* Blanco suave */
+    color: #d1d5db; /* Gris claro */
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
@@ -90,13 +91,13 @@ table {
 }
 
 table th, table td {
-    border: 1px solid #a8dadc; /* Verde claro */
+    border: 1px solid #8b5cf6; /* Morado suave */
     padding: 10px;
     text-align: left;
 }
 
 table th {
-    background-color: #457b9d; /* Azul llamativo */
+    background-color: #6c63ff; /* Morado vibrante */
     color: white;
 }
 
@@ -109,3 +110,4 @@ table th {
 .red-social:hover {
     transform: scale(1.2); /* Aumenta el tamaño ligeramente al pasar el cursor */
 }
+
