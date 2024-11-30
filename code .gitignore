@@ -1,0 +1,11 @@
+# Ignorar archivos de respaldo y temporales
+*.log
+*.tmp
+
+# Ignorar imágenes no necesarias
+*.jpeg
+*.png
+
+# Ignorar configuraciones locales
+config.json
+.env
